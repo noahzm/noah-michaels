@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "Noah Michaels",
+    author: "Noah Michaels",
+    siteUrl: 'https://noah.ms',
   },
   plugins: [
     {
