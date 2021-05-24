@@ -8,8 +8,8 @@ module.exports = {
       }
     },
     fontFamily: {
-      display: ["hwt-mardell", "ui-sans-serif", "sans-serif"],
-       sans: ["acumin-pro", "ui-sans-serif", "sans-serif"],
+      display: ["dico-mono-script", "mono"],
+       sans: ["proxima-nova", "ui-sans-serif", "sans-serif"],
       serif: ["kepler-std", "ui-serif", "serif"],
     },
   },

@@ -6,7 +6,7 @@ import Seo from "../components/seo";
 const IndexPage = () => (
   <Layout>
     <Seo title="Home"/>
-    <h2 className="text-3xl lg:text-4xl">Welcome!</h2>
+    <h1 className="text-3xl lg:text-4xl">Welcome!</h1>
     <br />
     <p className="font-serif lg:text-xl">
       This website is currently under construction and content is still being
