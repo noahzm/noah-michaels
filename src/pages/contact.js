@@ -13,11 +13,11 @@ const Contact = () => (
         method="POST"
         netlify-honeypot="bot-field"
         data-netlify="true"
-        name="contact"
+        name="Contact"
         data-netlify-recaptcha="true"
       >
         <input type="hidden" name="bot-field" />
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value="Contact" />
         <div>
           <div className="grid grid-cols-6 gap-6">
             <div className="col-span-6 sm:col-span-3">
@@ -73,7 +73,7 @@ const Contact = () => (
             </div>
           </div>
         </div>
-        <div data-netlify-recaptcha="true"/>
+        <div data-netlify-recaptcha="true"></div>
         <div className="py-3 text-right">
           <button
             type="submit"
