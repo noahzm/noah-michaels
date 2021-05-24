@@ -28,7 +28,7 @@ const Contact = () => (
                 name="name"
                 id="name"
                 autoComplete="given-name"
-                className="mt-1 focus:ring-noah-blue lg:text-xl  focus:border-noah-blue block w-full shadow-sm border-noah-blue rounded-md"
+                className="mt-1 focus:ring-noah-blue lg:text-xl  focus:border-noah-blue block w-full border-noah-blue rounded-md"
               />
             </div>
 
@@ -41,7 +41,7 @@ const Contact = () => (
                 name="email_address"
                 id="email_address"
                 autoComplete="email"
-                className="mt-1 lg:text-xl focus:ring-noah-blue focus:border-noah-blue block w-full shadow-sm border-noah-blue rounded-md"
+                className="mt-1 lg:text-xl focus:ring-noah-blue focus:border-noah-blue block w-full border-noah-blue rounded-md"
               />
             </div>
 
@@ -54,7 +54,7 @@ const Contact = () => (
                 name="message"
                 id="message"
                 autoComplete="message"
-                className="mt-1 lg:text-xl  focus:ring-noah-blue focus:border-noah-blue block w-full h-40 shadow-sm border-noah-blue rounded-md"
+                className="mt-1 lg:text-xl  focus:ring-noah-blue focus:border-noah-blue block w-full h-40 border-noah-blue rounded-md"
               />
             </div>
           </div>
@@ -62,7 +62,7 @@ const Contact = () => (
         <div className="py-3 text-right">
           <button
             type="submit"
-            className="font-display inline-flex justify-center lg:text-xl py-2 px-4 border border-transparent shadow-sm rounded-md text-white bg-noah-blue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-noah-blue"
+            className="font-display inline-flex justify-center lg:text-xl py-2 px-4 rounded text-white border border-noah-blue bg-noah-blue hover:bg-white hover:text-noah-blue focus:border-2"
           >
             Send
           </button>

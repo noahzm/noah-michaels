@@ -17,23 +17,20 @@ const About = () => (
         />
       </div>
       <div>
-        <p className="lg:text-xl">
+        <p className="lg:text-xl lg:pb-5 pb-3">
           Hey, I'm Noah Michaels, a digital designer and illustrator based in
           Raleigh, NC.
         </p>
-        <br />
-        <p className="lg:text-xl">
+        <p className="lg:text-xl lg:pb-5 pb-3">
           I studied Graphic Arts and Imaging Technology and Business at
           Appalachian State University in Boone, NC. With a concentration in
           cross-media production, I have the tools to communicate through
           multiple mediums such as print, packaging, and website design.
         </p>
-        <br />
-        <p className="lg:text-xl">
-          This website is coded and designed by myself using GatsbyJS,
+        <p className="lg:text-xl lg:pb-5 pb-3">
+          This website is coded and designed myself using Netlify, GatsbyJS,
           TailwindCSS, and Adobe Webfonts.
         </p>
-        <br />
         <Link to="/" className="font-display lg:text-2xl hover:underline">
           Return Home &#10550;
         </Link>

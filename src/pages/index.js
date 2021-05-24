@@ -7,13 +7,10 @@ import Seo from "../components/seo";
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1 className="text-3xl lg:text-4xl font-display">Welcome</h1>
-    <br />
-    <p className="lg:text-xl">
+    <p className="lg:text-xl pb-3 lg:pb-5">
       This website is currently under construction and content is still being
       added.
     </p>
-    <br />
     <div className="grid gap-3 lg:gap-5 grid-cols-1 lg:grid-cols-2">
       <div>
         <Link to="/creative-printing-website" className="hover:underline">
