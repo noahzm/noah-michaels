@@ -2,9 +2,21 @@ module.exports = {
   siteMetadata: {
     title: "Noah Michaels",
     author: "Noah Michaels",
-    siteUrl: 'https://noah.ms',
+    siteUrl: "https://noah.ms",
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Noah Michaels`,
+        short_name: `Noah M`,
+        start_url: `/`,
+        background_color: `#0000FF`,
+        theme_color: `#0000FF`,
+        display: `minimal-ui`,
+        icon: "src/images/icon.png",
+      },
+    },
     {
       resolve: "gatsby-source-contentful",
       options: {
