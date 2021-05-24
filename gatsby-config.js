@@ -7,7 +7,7 @@ module.exports = {
       resolve: "gatsby-source-contentful",
       options: {
         accessToken: "24sgmo6I9ATxgLnieYMr_dEKbr6n8UzqzF5uUSv_q7s",
-        spaceId: "",
+        spaceId: "gq3hbfio0s38",
       },
     },
     "gatsby-plugin-gatsby-cloud",
@@ -30,5 +30,6 @@ module.exports = {
       },
       __key: "images",
     },
+    "gatsby-plugin-postcss",
   ],
 };
