@@ -9,11 +9,12 @@ const Contact = () => (
     <h1 className="text-3xl lg:text-4xl lg:pb-5 pb-3">Contact</h1>
     <div className="md:col-span-2">
       <form
-        action="#"
+        action="/success"
         method="POST"
         netlify-honeypot="bot-field"
         data-netlify="true"
         name="contact"
+        data-netlify-recaptcha="true"
       >
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact" />
@@ -72,6 +73,7 @@ const Contact = () => (
             </div>
           </div>
         </div>
+        <div data-netlify-recaptcha="true"/>
         <div className="py-3 text-right">
           <button
             type="submit"
