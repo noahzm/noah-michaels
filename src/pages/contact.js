@@ -2,6 +2,7 @@ import * as React from "react";
 
 import Layout from "../components/layout";
 import Seo from "../components/seo";
+import { Link } from "gatsby";
 
 const Contact = () => (
   <Layout>
@@ -18,35 +19,22 @@ const Contact = () => (
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="Contact" />
         <div>
-          <div className="grid grid-cols-6 gap-6">
-            <div className="col-span-6 sm:col-span-3">
-              <label htmlFor="first_name" className="block">
-                First name
+          <div className="grid grid-cols-6 gap-3 lg:gap-5">
+            <div className="col-span-6 lg:col-span-3">
+              <label htmlFor="name" className="lg:text-xl block">
+                Name
               </label>
               <input
                 type="text"
-                name="first_name"
-                id="first_name"
+                name="name"
+                id="name"
                 autoComplete="given-name"
-                className="mt-1 focus:ring-noah-blue focus:border-noah-blue block w-full shadow-sm sm:text-sm border-noah-blue rounded-md"
+                className="mt-1 focus:ring-noah-blue lg:text-xl  focus:border-noah-blue block w-full shadow-sm border-noah-blue rounded-md font-serif"
               />
             </div>
 
-            <div className="col-span-6 sm:col-span-3">
-              <label htmlFor="last_name" className="block">
-                Last name
-              </label>
-              <input
-                type="text"
-                name="last_name"
-                id="last_name"
-                autoComplete="family-name"
-                className="mt-1 focus:ring-noah-blue focus:border-noah-blue block w-full shadow-sm sm:text-sm border-noah-blue rounded"
-              />
-            </div>
-
-            <div className="col-span-6 sm:col-span-4">
-              <label htmlFor="email_address" className="block">
+            <div className="col-span-6 lg:col-span-3">
+              <label htmlFor="email_address" className="block lg:text-xl ">
                 Email address
               </label>
               <input
@@ -54,12 +42,12 @@ const Contact = () => (
                 name="email_address"
                 id="email_address"
                 autoComplete="email"
-                className="mt-1 focus:ring-noah-blue focus:border-noah-blue block w-full shadow-sm sm:text-sm border-noah-blue rounded-md"
+                className="mt-1 font-serif lg:text-xl focus:ring-noah-blue focus:border-noah-blue block w-full shadow-sm border-noah-blue rounded-md"
               />
             </div>
 
             <div className="col-span-6">
-              <label htmlFor="message" className="block text-sm font-medium">
+              <label htmlFor="message" className="block lg:text-xl ">
                 Message
               </label>
               <textarea
@@ -67,7 +55,7 @@ const Contact = () => (
                 name="message"
                 id="message"
                 autoComplete="message"
-                className="mt-1 focus:ring-noah-blue focus:border-noah-blue block w-full shadow-sm sm:text-sm border-noah-blue rounded-md"
+                className="mt-1 font-serif lg:text-xl  focus:ring-noah-blue focus:border-noah-blue block w-full h-40 shadow-sm border-noah-blue rounded-md"
               />
             </div>
           </div>
@@ -75,12 +63,15 @@ const Contact = () => (
         <div className="py-3 text-right">
           <button
             type="submit"
-            className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm rounded-md text-white bg-noah-blue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-noah-blue"
+            className="inline-flex justify-center lg:text-xl py-2 px-4 border border-transparent shadow-sm rounded-md text-white bg-noah-blue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-noah-blue"
           >
             Send
           </button>
         </div>
       </form>
+      <Link to="/" className="lg:text-2xl hover:underline">
+        Return Home &#10550;
+      </Link>
     </div>
   </Layout>
 );
