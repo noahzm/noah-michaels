@@ -14,7 +14,6 @@ const Contact = () => (
         netlify-honeypot="bot-field"
         data-netlify="true"
         name="Contact"
-        data-netlify-recaptcha="true"
       >
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="Contact" />
@@ -73,7 +72,6 @@ const Contact = () => (
             </div>
           </div>
         </div>
-        <div data-netlify-recaptcha="true"></div>
         <div className="py-3 text-right">
           <button
             type="submit"
