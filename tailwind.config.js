@@ -4,17 +4,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'noah-blue': '#0000FF',
-      }
+        "noah-blue": "#0000FF",
+      },
     },
     fontFamily: {
       display: ["dico-mono-script", "mono"],
-       sans: ["proxima-nova", "ui-sans-serif", "sans-serif"],
+      sans: ["proxima-nova", "ui-sans-serif", "sans-serif"],
       serif: ["kepler-std", "ui-serif", "serif"],
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };

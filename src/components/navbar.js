@@ -20,12 +20,13 @@ const Navbar = ({ siteTitle }) => {
         >
           {siteTitle}
         </Link>
-        <a
-          href="mailto:hello@noah.graphics"
+        <Link
+          to="/contact"
           className="lg:text-2xl self-center text-noah-blue hover:underline"
+          activeClassName="underline"
         >
           Contact
-        </a>
+        </Link>
       </div>
     </nav>
   );
