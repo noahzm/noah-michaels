@@ -27,6 +27,7 @@ const Contact = () => (
                 type="text"
                 name="name"
                 id="name"
+                required
                 autoComplete="given-name"
                 className="mt-1 focus:ring-noah-blue lg:text-xl  focus:border-noah-blue block w-full border-noah-blue rounded-md"
               />
@@ -40,6 +41,7 @@ const Contact = () => (
                 type="email"
                 name="email_address"
                 id="email_address"
+                required
                 autoComplete="email"
                 className="mt-1 lg:text-xl focus:ring-noah-blue focus:border-noah-blue block w-full border-noah-blue rounded-md"
               />
@@ -53,6 +55,7 @@ const Contact = () => (
                 type="text"
                 name="message"
                 id="message"
+                required
                 autoComplete="message"
                 className="mt-1 lg:text-xl  focus:ring-noah-blue focus:border-noah-blue block w-full h-40 border-noah-blue rounded-md"
               />
