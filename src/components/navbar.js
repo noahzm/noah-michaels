@@ -8,7 +8,7 @@ const Navbar = ({ siteTitle }) => {
       <div className="flex justify-between p-3 lg:p-5 dark:text-white">
         <AniLink
           cover
-          bg="#F9FAFB"
+          bg="#0000FF"
           to="/about"
           className="lg:text-2xl self-center text-noah-blue hover:underline"
           activeClassName="underline"
