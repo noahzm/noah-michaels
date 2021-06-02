@@ -1,6 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import { StaticImage } from "gatsby-plugin-image";
 import Seo from "../components/seo";
 
@@ -31,9 +31,13 @@ const About = () => (
           This website is coded and designed myself using Netlify, GatsbyJS,
           TailwindCSS, and Adobe Webfonts.
         </p>
-        <Link to="/" className="font-display lg:text-2xl hover:underline">
+        <AniLink
+          cover
+          to="/"
+          className="font-display lg:text-2xl hover:underline"
+        >
           Return Home &#10550;
-        </Link>
+        </AniLink>
       </div>
     </div>
   </Layout>

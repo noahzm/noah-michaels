@@ -1,6 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import Seo from "../components/seo";
 
 const Success = () => (
@@ -11,9 +11,13 @@ const Success = () => (
       <p className="lg:text-xl pb-3 lg:pb-5">
         I have received your message and will get back to you as soon as I can.
       </p>
-      <Link to="/" className="font-display lg:text-2xl hover:underline">
+      <AniLink
+        cover
+        to="/"
+        className="font-display lg:text-2xl hover:underline"
+      >
         Return Home &#10550;
-      </Link>
+      </AniLink>
     </div>
   </Layout>
 );

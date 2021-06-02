@@ -1,6 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import Seo from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -31,9 +31,13 @@ const CreativePrintingWebsite = () => (
         Redesigned the website for Creative Printing and Internet Services in
         Boone, NC. Overhauled process of online orders and home page design.
       </p>
-      <Link to="/" className="font-display lg:text-2xl hover:underline">
+      <AniLink
+        cover
+        to="/"
+        className="font-display lg:text-2xl hover:underline"
+      >
         Return Home &#10550;
-      </Link>
+      </AniLink>
     </div>
   </Layout>
 );

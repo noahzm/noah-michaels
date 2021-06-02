@@ -1,4 +1,4 @@
-import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import Layout from "../components/layout";
@@ -13,14 +13,18 @@ const IndexPage = () => (
     </p>
     <div className="grid gap-3 lg:gap-5 grid-cols-1 lg:grid-cols-2">
       <div>
-        <Link to="/creative-printing-website" className="hover:underline">
+        <AniLink
+          cover
+          to="/creative-printing-website"
+          className="hover:underline"
+        >
           <StaticImage
             src="../images/creative-printing.png"
             alt="Creative Printing Website"
             imgClassName="border-2 border-noah-blue rounded"
           />
           <p className="lg:text-xl">Creative Printing Website</p>
-        </Link>
+        </AniLink>
       </div>
       <div>
         <StaticImage

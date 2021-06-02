@@ -1,7 +1,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 const Contact = () => (
   <Layout>
@@ -29,7 +29,7 @@ const Contact = () => (
                 id="name"
                 required
                 autoComplete="given-name"
-                className="mt-1 focus:ring-noah-blue lg:text-xl  focus:border-noah-blue block w-full border-noah-blue rounded-md"
+                className="mt-1 focus:ring-noah-blue lg:text-xl focus:border-noah-blue block w-full border-noah-blue rounded-md"
               />
             </div>
 
@@ -57,7 +57,7 @@ const Contact = () => (
                 id="message"
                 required
                 autoComplete="message"
-                className="mt-1 lg:text-xl  focus:ring-noah-blue focus:border-noah-blue block w-full h-40 border-noah-blue rounded-md"
+                className="mt-1 lg:text-xl focus:ring-noah-blue focus:border-noah-blue block w-full h-40 border-noah-blue rounded-md"
               />
             </div>
           </div>
@@ -71,9 +71,13 @@ const Contact = () => (
           </button>
         </div>
       </form>
-      <Link to="/" className="font-display lg:text-2xl hover:underline">
+      <AniLink
+        cover
+        to="/"
+        className="font-display lg:text-2xl hover:underline"
+      >
         Return Home &#10550;
-      </Link>
+      </AniLink>
     </div>
   </Layout>
 );

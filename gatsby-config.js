@@ -17,22 +17,9 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    {
-      resolve: "gatsby-source-contentful",
-      options: {
-        accessToken: "24sgmo6I9ATxgLnieYMr_dEKbr6n8UzqzF5uUSv_q7s",
-        spaceId: "gq3hbfio0s38",
-      },
-    },
-    "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "G-RXWZ91DS6S",
-      },
-    },
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-transition-link",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
