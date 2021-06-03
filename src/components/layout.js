@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <main className="m-3 lg:m-5 lg:mx-52 dark:text-white text-noah-blue">
+      <main className="container mx-auto px-4 text-noah-blue">
         {children}
       </main>
     </>

@@ -1,13 +1,11 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 const Contact = () => (
   <Layout>
     <Seo title="Contact" />
-    <h1 className="text-3xl lg:text-4xl lg:pb-5 pb-3 font-display">Contact</h1>
-    <div className="md:col-span-2">
+    <div className="lg:col-span-2 lg:px-48 lg:pt-24">
       <form
         action="/success"
         method="POST"
@@ -29,7 +27,7 @@ const Contact = () => (
                 id="name"
                 required
                 autoComplete="given-name"
-                className="mt-1 focus:ring-noah-blue lg:text-xl focus:border-noah-blue block w-full border-noah-blue rounded-md"
+                className="mt-1 focus:ring-noah-blue lg:text-xl focus:border-noah-blue block w-full border-noah-blue"
               />
             </div>
 
@@ -43,7 +41,7 @@ const Contact = () => (
                 id="email_address"
                 required
                 autoComplete="email"
-                className="mt-1 lg:text-xl focus:ring-noah-blue focus:border-noah-blue block w-full border-noah-blue rounded-md"
+                className="mt-1 lg:text-xl focus:ring-noah-blue focus:border-noah-blue block w-full border-noah-blue"
               />
             </div>
 
@@ -57,7 +55,7 @@ const Contact = () => (
                 id="message"
                 required
                 autoComplete="message"
-                className="mt-1 lg:text-xl focus:ring-noah-blue focus:border-noah-blue block w-full h-40 border-noah-blue rounded-md"
+                className="mt-1 lg:text-xl focus:ring-noah-blue focus:border-noah-blue block w-full h-40 border-noah-blue"
               />
             </div>
           </div>
@@ -65,19 +63,12 @@ const Contact = () => (
         <div className="py-3 text-right">
           <button
             type="submit"
-            className="font-display inline-flex justify-center lg:text-xl py-2 px-4 rounded text-white border border-noah-blue bg-noah-blue hover:bg-white hover:text-noah-blue focus:border-2"
+            className="font-display inline-flex justify-center lg:text-xl py-2 px-4 text-white border border-noah-blue bg-noah-blue hover:bg-white hover:text-noah-blue focus:border-2"
           >
             Send
           </button>
         </div>
       </form>
-      <AniLink
-        cover
-        to="/"
-        className="font-display lg:text-2xl hover:underline"
-      >
-        Return Home &#10550;
-      </AniLink>
     </div>
   </Layout>
 );
