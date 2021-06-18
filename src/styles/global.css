@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://use.typekit.net/kxs4iid.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=UnifrakturMaguntia&display=swap");
 
 html {
-    background-color: #F9FAFB;
+  background-color: #f9fafb;
 }
 
 .tl-edges {
-    overflow: unset;
+  overflow: unset;
 }

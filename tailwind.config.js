@@ -8,8 +8,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      display: ["dico-mono-script", "mono"],
-      sans: ["proxima-nova", "ui-sans-serif", "sans-serif"],
+      display: ["UnifrakturMaguntia", "cursive"],
+      sans: ["Inter", "sans-serif"],
       serif: ["kepler-std", "ui-serif", "serif"],
     },
   },

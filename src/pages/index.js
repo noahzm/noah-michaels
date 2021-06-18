@@ -11,7 +11,7 @@ const IndexPage = () => (
       <div className="relative">
         <AniLink cover to="/creative-printing-website">
           <div>
-            <h1 className="text-xl border-b border-noah-blue mb-3">
+            <h1 className="lg:text-xl border-b border-noah-blue mb-3">
               Creative Printing Website &#8674;
             </h1>
             <StaticImage
@@ -20,7 +20,7 @@ const IndexPage = () => (
             />
           </div>
           <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-noah-blue">
-            <h2 className="text-center text-xl text-white">
+            <h2 className="text-center lg:text-xl text-white">
               Creative Printing Website
             </h2>
           </div>
@@ -29,7 +29,7 @@ const IndexPage = () => (
       <div className="relative">
         <AniLink cover to="#">
           <div>
-            <h1 className="text-xl border-b border-noah-blue mb-3">
+            <h1 className="lg:text-xl border-b border-noah-blue mb-3">
               Influence Book &#8674;
             </h1>
             <StaticImage
@@ -38,14 +38,14 @@ const IndexPage = () => (
             />
           </div>
           <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-noah-blue">
-            <h2 className="text-center text-xl text-white">Influence Book</h2>
+            <h2 className="text-center lg:text-xl text-white">Influence Book</h2>
           </div>
         </AniLink>
       </div>
       <div className="relative">
         <AniLink cover to="#">
           <div>
-            <h1 className="text-xl border-b border-noah-blue mb-3">
+            <h1 className="lg:text-xl border-b border-noah-blue mb-3">
               Placeholder &#8674;
             </h1>
             <StaticImage
@@ -54,14 +54,14 @@ const IndexPage = () => (
             />
           </div>
           <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-noah-blue">
-            <h2 className="text-center text-xl text-white">Placeholder</h2>
+            <h2 className="text-center lg:text-xl text-white">Placeholder</h2>
           </div>
         </AniLink>
       </div>
       <div className="relative">
         <AniLink cover to="#">
           <div>
-            <h1 className="text-xl border-b border-noah-blue mb-3">
+            <h1 className="lg:text-xl border-b border-noah-blue mb-3">
               Placeholder &#8674;
             </h1>
             <StaticImage
@@ -70,14 +70,14 @@ const IndexPage = () => (
             />
           </div>
           <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-noah-blue">
-            <h2 className="text-center text-xl text-white">Placeholder</h2>
+            <h2 className="text-center lg:text-xl text-white">Placeholder</h2>
           </div>
         </AniLink>
       </div>
       <div className="relative">
         <AniLink cover to="#">
           <div>
-            <h1 className="text-xl border-b border-noah-blue mb-3">
+            <h1 className="lg:text-xl border-b border-noah-blue mb-3">
               Placeholder &#8674;
             </h1>
             <StaticImage
@@ -86,14 +86,14 @@ const IndexPage = () => (
             />
           </div>
           <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-noah-blue">
-            <h2 className="text-center text-xl text-white">Placeholder</h2>
+            <h2 className="text-center lg:text-xl text-white">Placeholder</h2>
           </div>
         </AniLink>
       </div>
       <div className="relative">
         <AniLink cover to="#">
           <div>
-            <h1 className="text-xl border-b border-noah-blue mb-3">
+            <h1 className="lg:text-xl border-b border-noah-blue mb-3">
               Placeholder &#8674;
             </h1>
             <StaticImage
@@ -102,7 +102,7 @@ const IndexPage = () => (
             />
           </div>
           <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-noah-blue">
-            <h2 className="text-center text-xl text-white">Placeholder</h2>
+            <h2 className="text-center lg:text-xl text-white">Placeholder</h2>
           </div>
         </AniLink>
       </div>
