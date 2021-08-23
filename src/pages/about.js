@@ -11,10 +11,9 @@ const About = () => (
         NC.
       </p>
       <p className="lg:text-2xl lg:pb-5 pb-3">
-        He studied Graphic Arts and Imaging Technology and Business at
-        Appalachian State University in Boone, NC. With a concentration in
-        cross-media production, he has the tools to communicate through multiple
-        mediums such as print, packaging, and website design.
+        He studied Graphic Arts and Imaging Technology with a conentration in
+        Cross Media Production and a minor in Business at Appalachian State
+        University in Boone, NC.
       </p>
     </div>
   </Layout>
