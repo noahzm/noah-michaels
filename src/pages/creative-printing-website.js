@@ -29,7 +29,7 @@ const CreativePrintingWebsite = () => (
       <AniLink
         cover
         to="/"
-        className="font-display lg:text-2xl hover:underline"
+        className="lg:text-xl hover:underline"
       >
         Return Home &#10550;
       </AniLink>

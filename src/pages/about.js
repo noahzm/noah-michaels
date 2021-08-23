@@ -11,7 +11,7 @@ const About = () => (
         NC.
       </p>
       <p className="lg:text-2xl lg:pb-5 pb-3">
-        He studied Graphic Arts and Imaging Technology with a conentration in
+        He studied Graphic Arts and Imaging Technology with a concentration in
         Cross Media Production and a minor in Business at Appalachian State
         University in Boone, NC.
       </p>
