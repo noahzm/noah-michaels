@@ -38,7 +38,9 @@ const IndexPage = () => (
             />
           </div>
           <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-noah-blue">
-            <h2 className="text-center lg:text-xl text-white">Influence Book</h2>
+            <h2 className="text-center lg:text-xl text-white">
+              Influence Book
+            </h2>
           </div>
         </AniLink>
       </div>

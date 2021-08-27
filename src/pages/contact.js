@@ -5,7 +5,7 @@ import Seo from "../components/seo";
 const Contact = () => (
   <Layout>
     <Seo title="Contact" />
-    <div className="lg:col-span-2 lg:px-48 lg:pt-24">
+    <div className="lg:col-span-2 lg:mx-48">
       <form
         action="/success"
         method="POST"
@@ -60,10 +60,10 @@ const Contact = () => (
             </div>
           </div>
         </div>
-        <div className="py-3 text-right">
+        <div className="mt-3 text-right">
           <button
             type="submit"
-            className="font-display inline-flex justify-center lg:text-xl py-2 px-4 text-white border border-noah-blue bg-noah-blue hover:bg-white hover:text-noah-blue focus:border-2"
+            className="inline-flex justify-center lg:text-xl py-2 px-4 text-white border border-noah-blue bg-noah-blue hover:bg-white hover:text-noah-blue focus:border-2"
           >
             Send
           </button>

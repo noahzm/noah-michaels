@@ -4,8 +4,8 @@ import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 const Navbar = ({ siteTitle }) => {
   return (
-    <nav className="z-10 sticky top-0 mx-auto inset-x-0 dark:bg-black dark:border-white">
-      <div className="flex justify-between p-3 lg:p-8 dark:text-white">
+    <nav className="z-10 sticky top-0 inset-x-0 p-4 lg:p-8 dark:bg-black dark:border-white">
+      <div className="flex justify-between dark:text-white">
         <AniLink
           cover
           bg="#0000FF"
