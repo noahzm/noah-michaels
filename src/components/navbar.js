@@ -1,35 +1,31 @@
 import React from "react";
 import PropTypes from "prop-types";
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import { Link } from "gatsby";
 
 const Navbar = ({ siteTitle }) => {
   return (
-    <nav className="z-10 sticky top-0 inset-x-0 p-4 lg:p-8 dark:bg-black dark:border-white">
-      <div className="flex justify-between dark:text-white">
-        <AniLink
-          cover
-          bg="#0000FF"
+    <nav className="z-10 sticky top-0 inset-x-0 p-4 lg:p-8">
+      <div className="flex justify-between">
+        <Link
           to="/about"
-          className="lg:text-2xl self-center text-noah-blue hover:underline"
+          className="lg:text-2xl self-center text-noah-blue dark:text-noah-yell hover:underline"
           activeClassName="underline"
         >
           About
-        </AniLink>
-        <AniLink
-          cover
+        </Link>
+        <Link
           to="/"
-          className="text-2xl lg:text-5xl text-center font-display self-center text-noah-blue hover:underline"
+          className="text-2xl lg:text-5xl text-center font-display self-center text-noah-blue dark:text-noah-yell hover:underline"
         >
           {siteTitle}
-        </AniLink>
-        <AniLink
-          cover
+        </Link>
+        <Link
           to="/contact"
-          className="lg:text-2xl self-center text-noah-blue hover:underline"
+          className="lg:text-2xl self-center text-noah-blue dark:text-noah-yell hover:underline"
           activeClassName="underline"
         >
           Contact
-        </AniLink>
+        </Link>
       </div>
     </nav>
   );

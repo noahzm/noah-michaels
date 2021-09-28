@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const Footer = ({ marqueeText }) => {
   return (
     <footer className="sticky inset-x-0 bottom-0 py-4 lg:py-8">
-        <div className="z-10 relative flex overflow-x-hidden text-noah-blue">
+        <div className="z-10 relative flex overflow-x-hidden dark:text-gray-100 text-gray-900">
           <div className="animate-marquee whitespace-nowrap lg:text-2xl">
             <span className="mx-4">{marqueeText}</span>
             <span className="mx-4 ">{marqueeText}</span>

@@ -27,7 +27,7 @@ const Contact = () => (
                 id="name"
                 required
                 autoComplete="given-name"
-                className="mt-1 focus:ring-noah-blue lg:text-xl focus:border-noah-blue block w-full border-noah-blue"
+                className="mt-1 focus:ring-noah-blue dark:focus:ring-noah-yell lg:text-xl focus:border-noah-blue dark:focus:border-noah-yell block w-full border-noah-blue dark:border-noah-yell dark:bg-gray-800"
               />
             </div>
 
@@ -41,7 +41,7 @@ const Contact = () => (
                 id="email_address"
                 required
                 autoComplete="email"
-                className="mt-1 lg:text-xl focus:ring-noah-blue focus:border-noah-blue block w-full border-noah-blue"
+                className="mt-1 focus:ring-noah-blue dark:focus:ring-noah-yell lg:text-xl focus:border-noah-blue dark:focus:border-noah-yell block w-full border-noah-blue dark:border-noah-yell dark:bg-gray-800"
               />
             </div>
 
@@ -55,7 +55,7 @@ const Contact = () => (
                 id="message"
                 required
                 autoComplete="message"
-                className="mt-1 lg:text-xl focus:ring-noah-blue focus:border-noah-blue block w-full h-40 border-noah-blue"
+                className="mt-1 focus:ring-noah-blue dark:focus:ring-noah-yell lg:text-xl focus:border-noah-blue dark:focus:border-noah-yell block w-full h-40 border-noah-blue dark:border-noah-yell dark:bg-gray-800"
               />
             </div>
           </div>
@@ -63,7 +63,7 @@ const Contact = () => (
         <div className="mt-3 text-right">
           <button
             type="submit"
-            className="inline-flex justify-center lg:text-xl py-2 px-4 text-white border border-noah-blue bg-noah-blue hover:bg-white hover:text-noah-blue focus:border-2"
+            className="inline-flex justify-center lg:text-xl py-2 px-4 dark:text-gray-900 text-white border dark:border-noah-yell border-noah-blue dark:bg-noah-yell bg-noah-blue hover:bg-white dark:hover:bg-gray-800 dark:hover:text-noah-yell hover:text-noah-blue focus:border-2"
           >
             Send
           </button>
