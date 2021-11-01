@@ -21,11 +21,6 @@ module.exports = {
           "100%": { transform: "translateX(0%)" },
         },
       },
-      fontFamily: {
-        display: ["UnifrakturMaguntia", "cursive"],
-        sans: ["Inter", "sans-serif"],
-        serif: ["kepler-std", "ui-serif", "serif"],
-      },
     },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],

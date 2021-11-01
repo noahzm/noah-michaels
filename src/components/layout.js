@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
     <>
       <div className="flex flex-col min-h-screen justify-between dark:bg-gray-900 bg-gray-100">
         <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
-        <main className="container m-auto px-4 pb-4 text-noah-blue dark:text-noah-yell">
+        <main className="container m-auto px-4 pb-4 text-gray-900 dark:text-gray-100">
           {children}
         </main>
       </div>

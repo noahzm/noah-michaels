@@ -3,15 +3,17 @@ import Layout from "../components/layout";
 import Seo from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
 
-const CreativePrintingWebsite = () => (
+const CreativePrinting = () => (
   <Layout>
-    <Seo title="Creative Printing Website" />
+    <Seo title="Creative Printing" />
     <div className="lg:mx-48">
-      <h1 className="text-xl lg:text-4xl">Creative Printing Website</h1>
+      <h1 className="uppercase text-center text-xl lg:text-2xl">
+        Creative Printing
+      </h1>
       <p className="lg:text-xl py-3 lg:py-5">
         Redesigned the website for{" "}
         <a
-          className="hover:underline"
+          className="underline hover:no-underline"
           href="https://creative-printing.com/"
           target="_blank"
           rel="noreferrer"
@@ -37,4 +39,4 @@ const CreativePrintingWebsite = () => (
   </Layout>
 );
 
-export default CreativePrintingWebsite;
+export default CreativePrinting;

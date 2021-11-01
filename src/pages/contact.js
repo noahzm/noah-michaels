@@ -27,7 +27,7 @@ const Contact = () => (
                 id="name"
                 required
                 autoComplete="given-name"
-                className="mt-1 focus:ring-noah-blue dark:focus:ring-noah-yell lg:text-xl focus:border-noah-blue dark:focus:border-noah-yell block w-full border-noah-blue dark:border-noah-yell dark:bg-gray-800"
+                className="mt-1 focus:ring-gray-900 dark:focus:ring-gray-100 lg:text-xl focus:border-gray-900 dark:focus:border-gray-100 block w-full border-gray-900 dark:border-gray-100 dark:bg-gray-800"
               />
             </div>
 
@@ -41,7 +41,7 @@ const Contact = () => (
                 id="email_address"
                 required
                 autoComplete="email"
-                className="mt-1 focus:ring-noah-blue dark:focus:ring-noah-yell lg:text-xl focus:border-noah-blue dark:focus:border-noah-yell block w-full border-noah-blue dark:border-noah-yell dark:bg-gray-800"
+                className="mt-1 focus:ring-gray-900 dark:focus:ring-gray-100 lg:text-xl focus:border-gray-900 dark:focus:border-gray-100 block w-full border-gray-900 dark:border-gray-100 dark:bg-gray-800"
               />
             </div>
 
@@ -55,7 +55,7 @@ const Contact = () => (
                 id="message"
                 required
                 autoComplete="message"
-                className="mt-1 focus:ring-noah-blue dark:focus:ring-noah-yell lg:text-xl focus:border-noah-blue dark:focus:border-noah-yell block w-full h-40 border-noah-blue dark:border-noah-yell dark:bg-gray-800"
+                className="mt-1 focus:ring-gray-900 dark:focus:ring-gray-100 lg:text-xl focus:border-gray-900 dark:focus:border-gray-100 block w-full h-40 border-gray-900 dark:border-gray-100 dark:bg-gray-800"
               />
             </div>
           </div>
@@ -63,7 +63,7 @@ const Contact = () => (
         <div className="mt-3 text-right">
           <button
             type="submit"
-            className="inline-flex justify-center lg:text-xl py-2 px-4 dark:text-gray-900 text-white border dark:border-noah-yell border-noah-blue dark:bg-noah-yell bg-noah-blue hover:bg-white dark:hover:bg-gray-800 dark:hover:text-noah-yell hover:text-noah-blue focus:border-2"
+            className="inline-flex justify-center lg:text-xl py-2 px-4 dark:text-gray-900 text-white border dark:border-gray-100 border-gray-900 dark:bg-gray-100 bg-gray-900 hover:bg-white dark:hover:bg-gray-800 dark:hover:text-gray-100 hover:text-gray-900 focus:border-2"
           >
             Send
           </button>

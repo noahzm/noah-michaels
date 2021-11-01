@@ -8,20 +8,20 @@ const Navbar = ({ siteTitle }) => {
       <div className="flex justify-between">
         <Link
           to="/about"
-          className="lg:text-2xl self-center text-noah-blue dark:text-noah-yell hover:underline"
+          className="lg:text-2xl uppercase self-center text-gray-900 dark:text-gray-100 hover:underline"
           activeClassName="underline"
         >
           About
         </Link>
         <Link
           to="/"
-          className="text-2xl lg:text-5xl text-center font-display self-center text-noah-blue dark:text-noah-yell hover:underline"
+          className="text-2xl lg:text-4xl text-center uppercase self-center text-gray-900 dark:text-gray-100 hover:underline"
         >
           {siteTitle}
         </Link>
         <Link
           to="/contact"
-          className="lg:text-2xl self-center text-noah-blue dark:text-noah-yell hover:underline"
+          className="lg:text-2xl uppercase self-center text-gray-900 dark:text-gray-100 hover:underline"
           activeClassName="underline"
         >
           Contact
