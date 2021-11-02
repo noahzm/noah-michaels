@@ -1,12 +1,11 @@
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
-  darkMode: "media", // or 'media' or 'class'
+  darkMode: "media",
   theme: {
+    fontFamily: {
+      'sans': ['futura-pt']
+    },
     extend: {
-      colors: {
-        "noah-blue": "#0000FF",
-        "noah-yell": "#FFFF00",
-      },
       animation: {
         marquee: "marquee 25s linear infinite",
         marquee2: "marquee2 25s linear infinite",

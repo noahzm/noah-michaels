@@ -11,7 +11,7 @@ const IndexPage = () => (
       <div className="relative">
         <Link to="/creative-printing">
           <div>
-            <h1 className="align-center lg:text-xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
+            <h1 className="align-center lg:text-3xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
               Creative Printing &#8594;
             </h1>
             <StaticImage
@@ -20,8 +20,23 @@ const IndexPage = () => (
             />
           </div>
           <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-gray-900 dark:bg-gray-100 uppercase">
-            <h2 className="text-center lg:text-xl text-gray-100 dark:text-gray-900">
+            <h2 className="text-center lg:text-3xl text-gray-100 dark:text-gray-900">
               Creative Printing
+            </h2>
+          </div>
+        </Link>
+      </div>
+      <div className="relative">
+        <Link to="/boro">
+          <div>
+            <h1 className="lg:text-3xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
+              Boro &#8594;
+            </h1>
+            <StaticImage src="../images/boro.png" alt="Boro" />
+          </div>
+          <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-gray-900 dark:bg-gray-100 uppercase">
+            <h2 className="text-center lg:text-3xl text-gray-100 dark:text-gray-900">
+              Boro
             </h2>
           </div>
         </Link>
@@ -29,7 +44,7 @@ const IndexPage = () => (
       <div className="relative">
         <Link to="/influence">
           <div>
-            <h1 className="lg:text-xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
+            <h1 className="lg:text-3xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
               Influence Book &#8594;
             </h1>
             <StaticImage
@@ -38,26 +53,8 @@ const IndexPage = () => (
             />
           </div>
           <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-gray-900 dark:bg-gray-100 uppercase">
-            <h2 className="text-center lg:text-xl text-gray-100 dark:text-gray-900">
+            <h2 className="text-center lg:text-3xl text-gray-100 dark:text-gray-900">
               Influence Book
-            </h2>
-          </div>
-        </Link>
-      </div>
-      <div className="relative">
-        <Link to="/boro">
-          <div>
-            <h1 className="lg:text-xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
-              Boro &#8594;
-            </h1>
-            <StaticImage
-              src="../images/boro.png"
-              alt="Boro"
-            />
-          </div>
-          <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-gray-900 dark:bg-gray-100 uppercase">
-            <h2 className="text-center lg:text-xl text-gray-100 dark:text-gray-900">
-              Boro
             </h2>
           </div>
         </Link>
@@ -65,7 +62,7 @@ const IndexPage = () => (
       <div className="relative">
         <Link to="#">
           <div>
-            <h1 className="lg:text-xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
+            <h1 className="lg:text-3xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
               Placeholder &#8594;
             </h1>
             <StaticImage
@@ -74,7 +71,7 @@ const IndexPage = () => (
             />
           </div>
           <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-gray-900 dark:bg-gray-100 uppercase">
-            <h2 className="text-center lg:text-xl text-gray-100 dark:text-gray-900">
+            <h2 className="text-center lg:text-3xl text-gray-100 dark:text-gray-900">
               Placeholder
             </h2>
           </div>
@@ -83,7 +80,7 @@ const IndexPage = () => (
       <div className="relative">
         <Link to="#">
           <div>
-            <h1 className="lg:text-xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
+            <h1 className="lg:text-3xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
               Placeholder &#8594;
             </h1>
             <StaticImage
@@ -92,7 +89,7 @@ const IndexPage = () => (
             />
           </div>
           <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-gray-900 dark:bg-gray-100 uppercase">
-            <h2 className="text-center lg:text-xl text-gray-100 dark:text-gray-900">
+            <h2 className="text-center lg:text-3xl text-gray-100 dark:text-gray-900">
               Placeholder
             </h2>
           </div>
@@ -101,7 +98,7 @@ const IndexPage = () => (
       <div className="relative">
         <Link to="#">
           <div>
-            <h1 className="lg:text-xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
+            <h1 className="lg:text-3xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
               Placeholder &#8594;
             </h1>
             <StaticImage
@@ -110,7 +107,7 @@ const IndexPage = () => (
             />
           </div>
           <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-gray-900 dark:bg-gray-100 uppercase">
-            <h2 className="text-center lg:text-xl text-gray-100 dark:text-gray-900">
+            <h2 className="text-center lg:text-3xl text-gray-100 dark:text-gray-900">
               Placeholder
             </h2>
           </div>

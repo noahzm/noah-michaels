@@ -7,16 +7,13 @@ const Influence = () => (
   <Layout>
     <Seo title="Influence" />
     <div className="lg:mx-48">
-      <h1 className="uppercase text-center text-xl lg:text-2xl">Influence</h1>
-      <p className="lg:text-xl py-3 lg:py-5">
+      <h1 className="uppercase font-bold">Influence Book</h1>
+      <p className="py-3 lg:py-5">
         Designed a book for a class on the finishing process of print
         production.
       </p>
       <div className="pb-3 lg:pb-5">
-        <StaticImage
-          src="../images/influence-book.png"
-          alt="Influence Book"
-        />
+        <StaticImage src="../images/influence-book.png" alt="Influence Book" />
       </div>
     </div>
   </Layout>

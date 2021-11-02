@@ -7,11 +7,9 @@ const CreativePrinting = () => (
   <Layout>
     <Seo title="Creative Printing" />
     <div className="lg:mx-48">
-      <h1 className="uppercase text-center text-xl lg:text-2xl">
-        Creative Printing
-      </h1>
-      <p className="lg:text-xl py-3 lg:py-5">
-        Redesigned the website for{" "}
+      <h1 className="uppercase font-bold pb-3 lg:pb-5">Creative Printing</h1>
+      <p className="pb-3 lg:pb-5">
+        I redesigned the website for{" "}
         <a
           className="underline hover:no-underline"
           href="https://creative-printing.com/"
@@ -20,8 +18,12 @@ const CreativePrinting = () => (
         >
           Creative Printing and Internet Services
         </a>{" "}
-        in Boone, NC. Overhauled the process of online orders and updated the
-        home page design.
+        in Boone, NC where I worked part time for almost three years of college.
+      </p>
+      <p className="pb-3 lg:pb-5">
+        Working with WordPress, I overhauled the process of online orders and
+        updated the home page design to better suit mobile devices and meet
+        modern web design standards.
       </p>
       <div className="pb-3 lg:pb-5">
         <StaticImage

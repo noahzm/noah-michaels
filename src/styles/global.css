@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://use.typekit.net/kxs4iid.css");
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -1.25rem; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 1.25rem; /* gutter size */
+  background-clip: padding-box;
+}
+
 .tl-edges {
   overflow: unset;
 }
