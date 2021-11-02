@@ -11,7 +11,7 @@ const Boro = () => (
     <div className="lg:mx-48">
       <h1 className="uppercase pb-3 lg:pb-5 font-bold">Boro</h1>
       <p className="pb-3 lg:pb-5">
-        Boro is an alternative hip-hip group formed in Greensboro, NC. For the
+        Boro is an alternative hip-hop group formed in Greensboro, NC. For the
         release of their upcoming album, Pressure, I created album artwork,
         merch, and other promotional material.
       </p>
