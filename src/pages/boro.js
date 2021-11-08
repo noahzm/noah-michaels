@@ -40,24 +40,34 @@ const Boro = () => (
               alt="Boro Pressure Album Cover Mockup"
             />
           </div>
-          <div>
-            <div className="pb-3 lg:pb-5">
-              <StaticImage
-                src="../images/boro.jpg"
-                alt="Boro Pressure Album Cover"
-              />
-            </div>
-          </div>
           <div className="pb-3 lg:pb-5">
             <StaticImage
-              src="../images/boro-tshirt-front.jpg"
-              alt="Boro T-Shirt Front"
+              src="../images/boro.jpg"
+              alt="Boro Pressure Album Cover"
             />
           </div>
           <div className="pb-3 lg:pb-5">
             <StaticImage
-              src="../images/boro-tshirt-back.jpg"
-              alt="Boro T-Shirt Back"
+              src="../images/boro-tshirt-2-front.png"
+              alt="Boro Laughter T-Shirt Front"
+            />
+          </div>
+          <div className="pb-3 lg:pb-5">
+            <StaticImage
+              src="../images/boro-tshirt-2-back.png"
+              alt="Boro Laughter T-Shirt Back"
+            />
+          </div>
+          <div className="pb-3 lg:pb-5">
+            <StaticImage
+              src="../images/boro-tshirt-front.png"
+              alt="Boro Call My Name T-Shirt Front"
+            />
+          </div>
+          <div className="pb-3 lg:pb-5">
+            <StaticImage
+              src="../images/boro-tshirt-back.png"
+              alt="Boro Call My Name T-Shirt Back"
             />
           </div>
         </Masonry>
