@@ -3,7 +3,7 @@ module.exports = {
   darkMode: "media",
   theme: {
     fontFamily: {
-      'sans': ['futura-pt']
+      sans: ["futura-pt"],
     },
     extend: {
       animation: {
