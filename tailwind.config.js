@@ -1,6 +1,6 @@
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
-  darkMode: "media",
+  //darkMode: "media",
   theme: {
     fontFamily: {
       sans: ["futura-pt"],
