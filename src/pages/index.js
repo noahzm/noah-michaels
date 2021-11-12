@@ -59,60 +59,6 @@ const IndexPage = () => (
           </div>
         </Link>
       </div>
-      <div className="relative">
-        <Link to="#">
-          <div>
-            <h1 className="lg:text-3xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
-              Placeholder &#8594;
-            </h1>
-            <StaticImage
-              src="https://picsum.photos/1000/667?grayscale&random=2"
-              alt="Placeholder Image"
-            />
-          </div>
-          <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-gray-900 dark:bg-gray-100 uppercase">
-            <h2 className="text-center lg:text-3xl text-gray-100 dark:text-gray-900">
-              Placeholder
-            </h2>
-          </div>
-        </Link>
-      </div>
-      <div className="relative">
-        <Link to="#">
-          <div>
-            <h1 className="lg:text-3xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
-              Placeholder &#8594;
-            </h1>
-            <StaticImage
-              src="https://picsum.photos/1000/667?grayscale&random=3"
-              alt="Placeholder Image"
-            />
-          </div>
-          <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-gray-900 dark:bg-gray-100 uppercase">
-            <h2 className="text-center lg:text-3xl text-gray-100 dark:text-gray-900">
-              Placeholder
-            </h2>
-          </div>
-        </Link>
-      </div>
-      <div className="relative">
-        <Link to="#">
-          <div>
-            <h1 className="lg:text-3xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
-              Placeholder &#8594;
-            </h1>
-            <StaticImage
-              src="https://picsum.photos/1000/667?grayscale&random=4"
-              alt="Placeholder Image"
-            />
-          </div>
-          <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-gray-900 dark:bg-gray-100 uppercase">
-            <h2 className="text-center lg:text-3xl text-gray-100 dark:text-gray-900">
-              Placeholder
-            </h2>
-          </div>
-        </Link>
-      </div>
     </div>
   </Layout>
 );
