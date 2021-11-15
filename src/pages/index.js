@@ -57,6 +57,24 @@ const IndexPage = () => (
           </div>
         </Link>
       </div>
+      <div className="relative">
+        <Link to="/round-and-round">
+          <div>
+            <h1 className="lg:text-3xl border-b border-black mb-3 ">
+              Round and Round &#8594;
+            </h1>
+            <StaticImage
+              src="../images/round-and-round.png"
+              alt="Round and Round"
+            />
+          </div>
+          <div className="opacity-0 hover:opacity-100 transition z-10 flex justify-center items-center inset-0 absolute bg-black">
+            <h2 className="text-center lg:text-3xl text-white">
+              Round and Round
+            </h2>
+          </div>
+        </Link>
+      </div>
     </div>
   </Layout>
 );
