@@ -2,10 +2,6 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
   //darkMode: "media",
   theme: {
-    fontFamily: {
-      sans: ["Helvetica"],
-      serif: ["Times New Roman"],
-    },
     extend: {
       animation: {
         marquee: "marquee 25s linear infinite",
@@ -23,6 +19,10 @@ module.exports = {
       },
       colors: {
         trueblue: "#0000FF",
+      },
+      fontFamily: {
+        sans: ["Helvetica"],
+        serif: ["Times New Roman"],
       },
     },
   },
