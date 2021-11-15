@@ -6,7 +6,7 @@ const NotFoundPage = () => (
   <Layout>
     <Seo title="Page Not Found" />
     <div className="lg:mx-48">
-      <h1 className="uppercase">
+      <h1>
         Page Not Found!
       </h1>
       <p className="mt-3 lg:mt-5">Are you lost?</p>

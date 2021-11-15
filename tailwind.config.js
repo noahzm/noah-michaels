@@ -3,7 +3,8 @@ module.exports = {
   //darkMode: "media",
   theme: {
     fontFamily: {
-      sans: ["futura-pt"],
+      sans: ["Helvetica"],
+      serif: ["Times New Roman"],
     },
     extend: {
       animation: {
@@ -19,6 +20,9 @@ module.exports = {
           "0%": { transform: "translateX(100%)" },
           "100%": { transform: "translateX(0%)" },
         },
+      },
+      colors: {
+        trueblue: "#0000FF",
       },
     },
   },

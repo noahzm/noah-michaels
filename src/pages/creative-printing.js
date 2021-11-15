@@ -7,11 +7,11 @@ const CreativePrinting = () => (
   <Layout>
     <Seo title="Creative Printing" />
     <div className="lg:mx-48">
-      <h1 className="uppercase font-bold pb-3 lg:pb-5">Creative Printing</h1>
+      <h1 className="underline pb-3 lg:pb-5">Creative Printing</h1>
       <p className="pb-3 lg:pb-5">
         I redesigned the website for{" "}
         <a
-          className="underline hover:no-underline"
+          className="text-trueblue hover:underline"
           href="https://creative-printing.com/"
           target="_blank"
           rel="noreferrer"

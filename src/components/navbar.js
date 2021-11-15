@@ -4,24 +4,22 @@ import { Link } from "gatsby";
 
 const Navbar = ({ siteTitle }) => {
   return (
-    <nav className="z-10 sticky top-0 inset-x-0 p-4 lg:p-8">
-      <div className="font-bold lg:text-3xl text-xl flex justify-between">
+    <nav className="text-trueblue z-10 sticky top-0 inset-x-0 p-4 lg:p-8">
+      <div className="lg:text-3xl text-xl flex justify-between">
+        <Link to="/" className="flex-grow hover:underline ">
+          {siteTitle}
+        </Link>
         <Link
           to="/about"
-          className="uppercase self-center text-gray-900 dark:text-gray-100 hover:underline"
+          className="hover:underline pr-4 lg:pr-8"
           activeClassName="underline"
         >
           About
         </Link>
-        <Link
-          to="/"
-          className="text-center uppercase self-center text-gray-900 dark:text-gray-100 hover:underline"
-        >
-          {siteTitle}
-        </Link>
+
         <Link
           to="/contact"
-          className="uppercase self-center text-gray-900 dark:text-gray-100 hover:underline"
+          className="hover:underline"
           activeClassName="underline"
         >
           Contact

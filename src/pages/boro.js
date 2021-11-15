@@ -9,7 +9,7 @@ const Boro = () => (
   <Layout>
     <Seo title="Boro" />
     <div className="lg:mx-48">
-      <h1 className="uppercase pb-3 lg:pb-5 font-bold">Boro</h1>
+      <h1 className="underline pb-3 lg:pb-5">Boro</h1>
       <p className="pb-3 lg:pb-5">
         Boro is an alternative hip-hop group formed in Greensboro, NC. For the
         release of their upcoming album, Pressure, I created album artwork,
@@ -18,7 +18,7 @@ const Boro = () => (
       <p className="pb-3 lg:pb-5">
         The design is inspired by{" "}
         <a
-          className="underline hover:no-underline"
+          className="text-trueblue hover:underline"
           href="https://en.wikipedia.org/wiki/Pen_%26_Pixel"
           target="_blank"
           rel="noreferrer"

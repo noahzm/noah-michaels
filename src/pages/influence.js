@@ -7,7 +7,7 @@ const Influence = () => (
   <Layout>
     <Seo title="Influence" />
     <div className="lg:mx-48">
-      <h1 className="uppercase font-bold">Influence Book</h1>
+      <h1 className="underline">Influence Book</h1>
       <p className="py-3 lg:py-5">
         Designed a book for a class on the finishing process of print
         production.

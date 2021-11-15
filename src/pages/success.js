@@ -6,7 +6,7 @@ const Success = () => (
   <Layout>
     <Seo title="Success" />
     <div className="lg:mx-48">
-      <h1 className="uppercase">Sent!</h1>
+      <h1>Sent!</h1>
       <p className="mt-3 lg:mt-5">
         I have received your message and will get back to you as soon as I can.
       </p>

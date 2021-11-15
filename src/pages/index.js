@@ -11,7 +11,7 @@ const IndexPage = () => (
       <div className="relative">
         <Link to="/creative-printing">
           <div>
-            <h1 className="align-center lg:text-3xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
+            <h1 className="align-center lg:text-3xl border-b border-black mb-3 ">
               Creative Printing &#8594;
             </h1>
             <StaticImage
@@ -19,8 +19,8 @@ const IndexPage = () => (
               alt="Creative Printing"
             />
           </div>
-          <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-gray-900 dark:bg-gray-100 uppercase">
-            <h2 className="text-center lg:text-3xl text-gray-100 dark:text-gray-900">
+          <div className="opacity-0 hover:opacity-100 transition z-10 flex justify-center items-center inset-0 absolute bg-black">
+            <h2 className="text-center lg:text-3xl text-white">
               Creative Printing
             </h2>
           </div>
@@ -29,22 +29,20 @@ const IndexPage = () => (
       <div className="relative">
         <Link to="/boro">
           <div>
-            <h1 className="lg:text-3xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
+            <h1 className="lg:text-3xl border-b border-black mb-3 ">
               Boro &#8594;
             </h1>
             <StaticImage src="../images/boro.png" alt="Boro" />
           </div>
-          <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-gray-900 dark:bg-gray-100 uppercase">
-            <h2 className="text-center lg:text-3xl text-gray-100 dark:text-gray-900">
-              Boro
-            </h2>
+          <div className="opacity-0 hover:opacity-100 transition z-10 flex justify-center items-center inset-0 absolute bg-black">
+            <h2 className="text-center lg:text-3xl text-white">Boro</h2>
           </div>
         </Link>
       </div>
       <div className="relative">
         <Link to="/influence">
           <div>
-            <h1 className="lg:text-3xl border-b border-gray-900 dark:border-gray-100 mb-3 uppercase">
+            <h1 className="lg:text-3xl border-b border-black mb-3 ">
               Influence Book &#8594;
             </h1>
             <StaticImage
@@ -52,8 +50,8 @@ const IndexPage = () => (
               alt="Influence Book"
             />
           </div>
-          <div className="opacity-0 hover:opacity-100 transition duration-300 ease-in-out z-10 flex justify-center items-center inset-0 absolute bg-gray-900 dark:bg-gray-100 uppercase">
-            <h2 className="text-center lg:text-3xl text-gray-100 dark:text-gray-900">
+          <div className="opacity-0 hover:opacity-100 transition z-10 flex justify-center items-center inset-0 absolute bg-black">
+            <h2 className="text-center lg:text-3xl text-white">
               Influence Book
             </h2>
           </div>

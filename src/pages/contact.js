@@ -27,7 +27,7 @@ const Contact = () => (
                 id="name"
                 required
                 autoComplete="given-name"
-                className="mt-1 focus:ring-gray-900 dark:focus:ring-gray-100 lg:text-3xl focus:border-gray-900 dark:focus:border-gray-100 block w-full border-gray-900 dark:border-gray-100 dark:bg-gray-800"
+                className="mt-1 focus:ring-black lg:text-3xl focus:border-black  block w-full border-black"
               />
             </div>
 
@@ -41,7 +41,7 @@ const Contact = () => (
                 id="email_address"
                 required
                 autoComplete="email"
-                className="mt-1 focus:ring-gray-900 dark:focus:ring-gray-100 lg:text-3xl focus:border-gray-900 dark:focus:border-gray-100 block w-full border-gray-900 dark:border-gray-100 dark:bg-gray-800"
+                className="mt-1 focus:ring-black lg:text-3xl focus:border-black block w-full border-black"
               />
             </div>
 
@@ -55,7 +55,7 @@ const Contact = () => (
                 id="message"
                 required
                 autoComplete="message"
-                className="mt-1 focus:ring-gray-900 dark:focus:ring-gray-100 lg:text-3xl focus:border-gray-900 dark:focus:border-gray-100 block w-full h-40 border-gray-900 dark:border-gray-100 dark:bg-gray-800"
+                className="mt-1 focus:ring-black lg:text-3xl focus:border-black block w-full h-40 border-black"
               />
             </div>
           </div>
@@ -63,7 +63,7 @@ const Contact = () => (
         <div className="mt-3 text-right">
           <button
             type="submit"
-            className="inline-flex justify-center  py-2 px-4 dark:text-gray-900 text-white border dark:border-gray-100 border-gray-900 dark:bg-gray-100 bg-gray-900 hover:bg-white dark:hover:bg-gray-800 dark:hover:text-gray-100 hover:text-gray-900 focus:border-2"
+            className="inline-flex justify-center  py-2 px-4 text-white border border-trueblue bg-trueblue hover:bg-whitehover:text-trueblue focus:border-2"
           >
             Send
           </button>

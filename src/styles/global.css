@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://use.typekit.net/kxs4iid.css");
-
 .my-masonry-grid {
   display: -webkit-box; /* Not needed if autoprefixing */
   display: -ms-flexbox; /* Not needed if autoprefixing */
@@ -18,8 +16,4 @@
 
 .tl-edges {
   overflow: unset;
-}
-
-html {
-  background-color: #fff1e5;
 }

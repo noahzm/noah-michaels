@@ -7,7 +7,7 @@ const About = () => (
     <Seo title="About" />
     <div className="lg:mx-48">
       <p className="lg:pb-5 pb-3">
-        Hey, my name is Noah. I am a graphic designer based in Raleigh, NC.
+        Hey, my name is  <span className="italic">Noah</span>. I am a graphic designer based in Raleigh, NC.
       </p>
       <p className="lg:pb-5 pb-3">
         I studied Graphic Arts and Imaging Technology with a concentration in
