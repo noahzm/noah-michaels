@@ -1,7 +1,7 @@
 Noah Michaels' Portfolio Website
 ================================
 
-Visit my wesite at [noah.icu](https://noah.icu)
+Visit my website at [noah.icu](https://noah.icu)
 
 Built with
  - [GatsbyJS](https://www.gatsbyjs.com)
