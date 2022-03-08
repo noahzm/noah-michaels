@@ -12,11 +12,11 @@ const Boro = () => (
       <h1 className="underline pb-3 lg:pb-5">Boro</h1>
       <p className="pb-3 lg:pb-5">
         Boro is an alternative hip-hop group formed in Greensboro, NC. For the
-        release of their upcoming album, Pressure, I created album artwork,
-        merch, and other promotional material.
+        release of their upcoming album, Pressure, I created album artwork and
+        merchandise.
       </p>
       <p className="pb-3 lg:pb-5">
-        The design is inspired by{" "}
+        The album artwork is inspired by{" "}
         <a
           className="text-trueblue hover:underline"
           href="https://en.wikipedia.org/wiki/Pen_%26_Pixel"

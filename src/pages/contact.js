@@ -63,7 +63,7 @@ const Contact = () => (
         <div className="mt-3 text-right">
           <button
             type="submit"
-            className="inline-flex justify-center  py-2 px-4 text-white border border-trueblue bg-trueblue hover:bg-white hover:text-trueblue focus:border-2"
+            className="inline-flex justify-center py-2 px-4 text-white border border-trueblue bg-trueblue hover:bg-white hover:text-trueblue focus:border-2"
           >
             Send
           </button>
