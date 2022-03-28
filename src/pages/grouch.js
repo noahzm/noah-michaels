@@ -31,6 +31,12 @@ const Grouch = () => (
           {" "}
           <div className="pb-3 lg:pb-5">
             <StaticImage
+              src="../images/grouch2.png"
+              alt="Latest Grouch Design"
+            />
+          </div>
+          <div className="pb-3 lg:pb-5">
+            <StaticImage
               src="../images/grouchhardwaredesign.png"
               alt="Grouch Skate Hardware"
             />
