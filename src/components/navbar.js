@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = ({ siteTitle }) => {
   return (
@@ -19,11 +21,19 @@ const Navbar = ({ siteTitle }) => {
 
         <Link
           to="/contact"
-          className="hover:underline"
+          className="hover:underline pr-4 lg:pr-8"
           activeClassName="underline"
         >
           Contact
         </Link>
+        <a
+          className="hover:underline"
+          href="https://github.com/noahzm"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faGithub} size="1x" />{" "}
+        </a>
       </div>
     </nav>
   );

@@ -20,7 +20,7 @@ const Grouch = () => (
         >
           Grouch
         </a>{" "}
-        is a DIY skate hardware brand / possible art collective in the works.
+        is a skate hardware brand.
       </p>
       <SRLWrapper>
         <Masonry
