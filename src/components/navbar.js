@@ -7,33 +7,42 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const Navbar = ({ siteTitle }) => {
   return (
     <nav className="text-trueblue z-10 sticky top-0 inset-x-0 m-4 lg:m-8">
-      <div className="lg:text-3xl text-xl flex justify-between">
-        <Link to="/" className="flex-grow hover:underline ">
+      <div className="lg:text-3xl text-xl flex flex-wrap justify-between items-center mx-auto">
+        <Link to="/" className="flex items-center hover:underline ">
           {siteTitle}
         </Link>
-        <Link
-          to="/about"
-          className="hover:underline mr-4 lg:mr-8"
-          activeClassName="underline"
-        >
-          About
-        </Link>
-
-        <Link
-          to="/contact"
-          className="hover:underline mr-4 lg:mr-8"
-          activeClassName="underline"
-        >
-          Contact
-        </Link>
-        <a
-          className="hover:underline"
-          href="https://github.com/noahzm"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FontAwesomeIcon icon={faGithub} size="1x" />{" "}
-        </a>
+        <div className="w-full block w-auto">
+          <ul className="flex flex-row space-x-8 mt-0">
+            <li>
+              <Link
+                to="/about"
+                className="hover:underline block p-0"
+                activeClassName="underline"
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/contact"
+                className="hover:underline block p-0"
+                activeClassName="underline"
+              >
+                Contact
+              </Link>
+            </li>
+            <li>
+              <a
+                className="hover:underline block p-0"
+                href="https://github.com/noahzm"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} size="1x" />{" "}
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   );
