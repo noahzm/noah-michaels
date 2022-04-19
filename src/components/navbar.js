@@ -6,14 +6,14 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = ({ siteTitle }) => {
   return (
-    <nav className="text-trueblue z-10 sticky top-0 inset-x-0 p-4 lg:p-8">
+    <nav className="text-trueblue z-10 sticky top-0 inset-x-0 m-4 lg:m-8">
       <div className="lg:text-3xl text-xl flex justify-between">
         <Link to="/" className="flex-grow hover:underline ">
           {siteTitle}
         </Link>
         <Link
           to="/about"
-          className="hover:underline pr-4 lg:pr-8"
+          className="hover:underline mr-4 lg:mr-8"
           activeClassName="underline"
         >
           About
@@ -21,7 +21,7 @@ const Navbar = ({ siteTitle }) => {
 
         <Link
           to="/contact"
-          className="hover:underline pr-4 lg:pr-8"
+          className="hover:underline mr-4 lg:mr-8"
           activeClassName="underline"
         >
           Contact

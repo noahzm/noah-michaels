@@ -12,15 +12,16 @@ const Grouch = () => (
     <div className="lg:mx-48">
       <h1 className="underline pb-3 lg:pb-5">Grouch</h1>
       <p className="pb-3 lg:pb-5">
-        <a
+        {/* <a
           className="text-trueblue hover:underline"
           href="https://grouch.bigcartel.com/"
           target="_blank"
           rel="noreferrer"
         >
           Grouch
-        </a>{" "}
-        is a skate hardware brand.
+        </a>{" "} */}
+        Grouch is a series of hand screen printed t-shirts in progress. More
+        information to come.
       </p>
       <SRLWrapper>
         <Masonry
@@ -29,18 +30,6 @@ const Grouch = () => (
           columnClassName="my-masonry-grid_column"
         >
           {" "}
-          <div className="pb-3 lg:pb-5">
-            <StaticImage
-              src="../images/grouch2.png"
-              alt="Latest Grouch Design"
-            />
-          </div>
-          <div className="pb-3 lg:pb-5">
-            <StaticImage
-              src="../images/grouchhardwaredesign.png"
-              alt="Grouch Skate Hardware"
-            />
-          </div>
           <div className="pb-3 lg:pb-5">
             <StaticImage
               src="../images/grouchorange.png"

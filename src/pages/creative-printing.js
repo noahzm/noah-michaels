@@ -9,7 +9,7 @@ const CreativePrinting = () => (
     <div className="lg:mx-48">
       <h1 className="underline pb-3 lg:pb-5">Creative Printing</h1>
       <p className="pb-3 lg:pb-5">
-        I redesigned the website for{" "}
+        Redesigned the website for{" "}
         <a
           className="text-trueblue hover:underline"
           href="https://creative-printing.com/"
@@ -18,12 +18,14 @@ const CreativePrinting = () => (
         >
           Creative Printing and Internet Services
         </a>{" "}
-        in Boone, NC where I worked part time for almost three years of college.
+        in Boone, NC.
       </p>
       <p className="pb-3 lg:pb-5">
-        Working with WordPress, I overhauled the process of online orders and
-        updated the home page design to better suit mobile devices and meet
-        modern web design standards.
+        Working with WordPress and the Elementor plugin, the site's theme and
+        homepage was updated to better suit mobile devices and meet modern web
+        design standards. The online ordering was made the focus of the homepage
+        to attract business to customers who were not able to come by the shop
+        to place an order.
       </p>
       <div className="pb-3 lg:pb-5">
         <StaticImage
