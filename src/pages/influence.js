@@ -19,7 +19,6 @@ const Influence = () => (
           Click here to view the book
         </a>
       </p>
-      <p className="pb-3 lg:pb-5"></p>
       <div className="pb-3 lg:pb-5">
         <StaticImage src="../images/influence-book.png" alt="Influence Book" />
       </div>
