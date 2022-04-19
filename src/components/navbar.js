@@ -12,7 +12,7 @@ const Navbar = ({ siteTitle }) => {
           {siteTitle}
         </Link>
         <div className="w-full block w-auto">
-          <ul className="flex flex-row space-x-8 mt-0">
+          <ul className="flex flex-row space-x-4 lg:space-x-8 mt-0">
             <li>
               <Link
                 to="/about"
