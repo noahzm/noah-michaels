@@ -21,8 +21,8 @@ module.exports = {
         trueblue: "#0000FF",
       },
       fontFamily: {
-        sans: ["Helvetica"],
-        serif: ["Times New Roman"],
+        sans: ["DM Sans"],
+        serif: ["EB Garamond"],
       },
     },
   },

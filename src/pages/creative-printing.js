@@ -7,7 +7,7 @@ const CreativePrinting = () => (
   <Layout>
     <Seo title="Creative Printing" />
     <div className="lg:mx-48">
-      <h1 className="underline pb-3 lg:pb-5">Creative Printing</h1>
+      <h1 className="font-sans lg:text-3xl text-2xl pb-3 lg:pb-5">Creative Printing</h1>
       <p className="pb-3 lg:pb-5">
         Redesigned the website for{" "}
         <a
@@ -23,9 +23,12 @@ const CreativePrinting = () => (
       <p className="pb-3 lg:pb-5">
         Working with WordPress and the Elementor plugin, the site's theme and
         homepage was updated to better suit mobile devices and meet modern web
-        design standards. The online ordering was made the focus of the homepage
-        to attract business to customers who were not able to come by the shop
-        to place an order.
+        design standards.
+      </p>
+      <p className="pb-3 lg:pb-5">
+        The online ordering was made the focus of the homepage to attract
+        business to customers who were not able to come by the shop to place an
+        order.
       </p>
       <div className="pb-3 lg:pb-5">
         <StaticImage

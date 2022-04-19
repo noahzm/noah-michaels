@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
       <SimpleReactLightbox>
         <div className=" flex flex-col min-h-screen justify-between">
           <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
-          <main className="font-serif text-xl lg:text-3xl container m-auto px-4 pb-4 text-black">
+          <main className="font-serif text-xl lg:text-2xl container m-auto px-4 pb-4 text-black">
             {children}
           </main>
         </div>

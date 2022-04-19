@@ -6,7 +6,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = ({ siteTitle }) => {
   return (
-    <nav className="text-trueblue z-10 sticky top-0 inset-x-0 m-4 lg:m-8">
+    <nav className="text-trueblue z-10 sticky top-0 inset-x-0 p-4 lg:p-8">
       <div className="lg:text-3xl text-xl flex flex-wrap justify-between items-center mx-auto">
         <Link to="/" className="flex items-center hover:underline ">
           {siteTitle}

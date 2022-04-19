@@ -10,7 +10,7 @@ const Grouch = () => (
   <Layout>
     <Seo title="Grouch" />
     <div className="lg:mx-48">
-      <h1 className="underline pb-3 lg:pb-5">Grouch</h1>
+      <h1 className="font-sans lg:text-3xl text-2xl pb-3 lg:pb-5">Grouch</h1>
       <p className="pb-3 lg:pb-5">
         {/* <a
           className="text-trueblue hover:underline"

@@ -6,7 +6,7 @@ const RoundAndRound = () => (
   <Layout>
     <Seo title="Round and Round" />
     <div className="lg:mx-48">
-      <h1 className="underline pb-3 lg:pb-5">Round and Round</h1>
+      <h1 className="font-sans lg:text-3xl text-2xl pb-3 lg:pb-5">Round and Round</h1>
       <p className="pb-3 lg:pb-5">
         Created a short loop inspired by the song,{" "}
         <a
